@@ -1,0 +1,36 @@
+
+.card-background{
+	background-color: rgba(105, 112, 96, 0.7);
+	margin: 1rem 0rem;
+	padding: 1rem 1rem;
+}
+
+.card-background-rounded{
+    @extend .card-background;
+    border-radius: 12px;
+}
+
+@mixin powered-by($size,$color){
+    font-size: $size;
+    color: $color;
+}
+
+.text-powered-by{
+    @include powered-by(1.5rem, rgb(241, 241, 241))
+}
+
+$bg-color:(
+    '1': rgba(105, 112, 96, 1),
+);
+
+.nav-bg-grey{
+    background-color: map-get($map:$bg-color, $key: '1')
+}
+
+
+
+//element max width
+
+.max-width{
+    max-width: 1400px;
+}

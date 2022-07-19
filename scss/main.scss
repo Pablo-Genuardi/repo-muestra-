@@ -1,0 +1,161 @@
+@import "_vars";
+@import "_fonts";
+@import "_commons";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background-image: url(../img/lawn.png);
+	background-attachment: auto;	
+}
+
+
+
+p{
+	font-weight: 200;
+	line-height: 2.8rem;
+}
+
+nav ul li a {
+	font-size: 2rem;
+	text-decoration: none;
+	color: rgb(235, 156 , 77) !important;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+}
+
+nav ul li a:hover { 
+	color: rgb(243, 97, 0);
+	font-weight: 300;
+	transform: scaleY(1.1);
+	transform: scaleX(1.1);
+	transition: all 1s ;
+	cursor: pointer;
+}
+
+footer{
+	background-color: rgba(105, 112, 96, 1);
+	padding: 8px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;	
+}
+
+
+
+
+
+
+
+.art-pic{
+	margin-top: 1rem;
+	width: 100%;
+}
+
+
+.f-spacing{
+	margin: 0px 3px;
+	
+}
+
+.icons-size{
+	width: 100%;
+}
+
+.table-text{
+	font-size: 2rem;
+	color: rgb(235, 156 , 77);
+}
+
+.table-text-2{
+	font-size: 2rem;
+	color: rgb(255, 236, 130);	
+}
+
+
+.btn-color{
+	background-color: rgb(243, 97, 0);;
+}
+
+.grey-background{
+	background-color: rgba(105, 112, 96, 0.7);
+	margin-top: 1rem;
+	margin-left: 0rem;
+	margin-right: 0rem;
+	padding: 1rem;
+	border-radius: 12px;
+}
+
+.grey-background-h1{
+	background-color: rgba(105, 112, 96, 0.7);
+	padding: 2rem;
+	margin: 2rem 0rem;
+	border-radius: 12px;
+}
+
+.grey-background-h2{
+	background-color: rgba(105, 112, 96, 0.7);
+	padding: 2rem;
+	margin: 2rem 0rem;
+	border-radius: 12px;
+}
+
+.grey-background-articles{
+	background-color: rgba(105, 112, 96, 0.7);
+	margin: 0rem 1rem;
+	padding: 0rem 0rem;
+	border-radius: 12px;
+}
+
+.card-background{
+	background-color: rgba(105, 112, 96, 0.7);
+	margin: 1rem 0rem;
+	padding: 1rem 1rem;
+}
+
+.round-borders-25{
+	border-radius: 12px;
+}
+
+.round-borders-12-5{
+	border-radius: 12px;
+}
+
+.cazador{
+	margin: 0rem;
+	width: 100%;
+	border-radius: 12px;
+}
+
+.isologo-nav img{
+	width: 82px;
+}
+
+
+
+
+@media (min-width: 120px) and (max-width: 500px) {
+
+	.isologo-nav img{
+	
+	width: 52px;
+	}
+	
+	}
+
+@media (min-width: 120px) and (max-width: 494px) {
+
+		.text-powered-by{
+		
+		display: none;
+		}
+		
+		}
+	
